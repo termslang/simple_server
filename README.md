@@ -3,7 +3,8 @@
 ```
 dune exec ./main.exe
 
-curl -X POST http://0.0.0.0:3000 -H "Content-Type: application/json" -d "{\"login\":\"username\",\"password\":\"password\"}"
+curl -X POST http://0.0.0.0:3000 -H "Content-Type: application/json" -d "{\"username\":\"username\",\"password\":\"password\"}"
+
 ```
 
 

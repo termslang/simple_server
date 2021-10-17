@@ -5,6 +5,8 @@
 shell.nix
 Makefile
 .ocamlformat
+credentials.db
+
 
 *.annot
 *.cmo

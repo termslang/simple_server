@@ -1,5 +1,5 @@
 (executable
  (name main)
- (libraries lwt yojson opium)
+ (libraries lwt yojson opium caqti caqti-lwt caqti-driver-sqlite3)
  (preprocess
   (pps lwt_ppx ppx_deriving_yojson)))
